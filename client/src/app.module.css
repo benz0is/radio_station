@@ -1,0 +1,67 @@
+body {
+  background-color: darkblue;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: grid;
+
+  background-color: #423e74;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 5px 10px 25px;
+}
+
+.boxContents {
+  color: black;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid rgba(161, 158, 158, 0.336);
+}
+
+.boxContents:hover {
+  background-color: rgba(103, 97, 177, 0.5);
+  cursor: pointer;
+}
+
+.hiddenBoxContent {
+  text-align: center;
+  height: 320px;
+  width: 240px;
+}
+.header {
+  background-color: #ffb35c;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-weight: 200;
+  height: 50px;
+  padding-top: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer {
+  height: 40px;
+  border-top: 1px solid rgba(161, 158, 158);
+  background-color: rgb(50, 44, 110);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: grid;
+  text-align: center;
+}
+
+.textDesc {
+  color: lightgray;
+}
+
+.stationDesc {
+  color: lightgray;
+  font-weight: bold;
+}
